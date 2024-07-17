@@ -1,0 +1,53 @@
+html {
+    touch-action: manipulation;
+}
+
+.wrapper-container {
+    display: flex;
+    justify-content: center; /* 중앙 정렬을 위해 추가 */
+}
+
+.tetris-container {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    background-color: #333333;
+}
+
+.tetris-panel-container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    background-color: #333333;
+    align-items: flex-start; /* 요소들을 왼쪽 정렬 */
+}
+
+.tetris-panel-container-padding {
+    flex-grow: 1;
+}
+
+.tetris-panel-container p {
+   margin: 0;
+   padding: 0;
+}
+
+.tetris-others-container #stage2 {
+    background-color: black;
+    width: 120px;
+    height: 240px;
+    /* 원하는 다른 스타일링 속성들을 여기에 추가할 수 있습니다 */
+}
+
+.tetris-button-panel {
+    border-style: none;
+    width: 100%;
+}
+
+.tetris-button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background: #444444;
+}
